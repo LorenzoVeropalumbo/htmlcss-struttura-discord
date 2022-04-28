@@ -7,11 +7,70 @@
 
 /* Generic */
 .container{
-  width: 70%;
+  width: 55%;
   margin: auto;
-  background-color: aqua;
 }
 
-ul{
+/* Header Top*/
+.flex-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  /* TEST */
+  height: 55px;
+}
+
+.top-section-color{
+
+  /* TEST */
+  background-color: #add8e6;
+}
+
+.menu{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.menu li{
+  padding: 0 20px;
+}
+
+.menu li a{
   text-decoration: none;
+  color: inherit;
+}
+
+.logo,
+nav,
+.login {
+  padding: 5px 0;
+
+  /* TEST */
+  border: 1px dashed black;
+  background-color: #daa520;
+}
+
+.logo{
+  width: 20%;
+}
+
+nav{
+  width: 60%;
+}
+
+.login{
+  width: 20%;
+  text-align: right;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Jumbotron */
+.jumbotron-bg{
+
+  /* TEST */
+  background-color: #00008b;
+  height: 500px;
 }
