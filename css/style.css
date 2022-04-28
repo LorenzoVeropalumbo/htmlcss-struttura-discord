@@ -7,8 +7,9 @@
 
 /* GENERIC */
 .container{
-  width: 65%;
+  width: 70%;
   margin: auto;
+  height: 100%;
 }
 
 /* HEADER TOP */
@@ -52,15 +53,15 @@ nav,
   background-color: #daa520;
 }
 
-.logo{
+.flex-container .logo{
   width: 20%;
 }
 
-nav{
+.flex-container nav{
   width: 60%;
 }
 
-.login{
+.flex-container .login{
   width: 20%;
   text-align: right;
   text-decoration: none;
@@ -89,6 +90,15 @@ nav{
 
 /* MAIN */
 
+.flex-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* test */ 
+  height: 100%;
+}
+
 .section-color{
 
   /* test */
@@ -103,23 +113,32 @@ nav{
   height: 500px;
 }
 
-.flex-section{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 80%;
-  margin: auto;
+.section-color3{
 
   /* test */
-  height: 100%;
+  background-color: #d3d3d3;
+  height: 760px;
+}
+
+.section-color4{
+
+  /* test */
+  background-color: #23272a;
+  height: 430px;
 }
 
 /* CONTENT SECTION */
+.content-box{
+  display: flex;
+  width: 100%;
+  border: 1px dashed black;
+  margin-bottom: 20px;
+}
 .content1{
 
   /* test */
   height: 390px;
-  width: 550px;
+  width: 60%;
   background-color: #1d90ff;
   border: 1px dashed black;
 }
@@ -128,7 +147,7 @@ nav{
 
   /* test */
   height: 390px;
-  width: 350px;
+  width: 40%;
   background-color: #ffbfcb;
   border: 1px dashed black;
 }
@@ -136,8 +155,67 @@ nav{
 .content3{
 
   /* test */
-  height: 500px;
+  height: 650px;
   width: 900px;
   background-color: #238b21;
   border: 1px dashed black;
+}
+
+.content4{
+
+  /* test */
+  height: 390px;
+  width: 30%;
+  background-color: #f08080;
+  border: 1px dashed black;
+  margin-bottom: 20px;
+}
+
+.content5{
+
+  /* test */
+  height: 390px;
+  width: calc(100% / 4);
+  background-color: #20b2aa;
+  border: 1px dashed white;
+}
+
+/* HR */
+hr{
+  border: 1px solid #838485;
+}
+
+/* FOOTER */
+.footer-section-color{
+  
+  /* test */
+  background-color: #23272a;
+  height: 80px;
+  padding-top: 20px;
+
+}
+
+.footer-section-color .container{
+  background-color: #7fffd4;
+}
+
+.flex-container-footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  /* test */
+  height: 100%;
+}
+
+.flex-container-footer .logo{
+  background-color: #ffb6c0;
+  padding: 2px;
+}
+
+.flex-container-footer .login{
+  background-color: #ffb6c0;
+  text-decoration: none;
+  color: inherit;
+  padding: 2px;
 }
