@@ -1,0 +1,17 @@
+/* RESET*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Generic */
+.container{
+  width: 70%;
+  margin: auto;
+  background-color: aqua;
+}
+
+ul{
+  text-decoration: none;
+}
