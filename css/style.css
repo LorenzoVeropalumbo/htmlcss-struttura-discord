@@ -111,7 +111,7 @@ nav,
 /* CONTENT SECTION */
 .content-box{
   display: flex;
-  width: 100%;
+  width: 70%;
   border: 1px dashed black;
 }
 .content1{
@@ -145,7 +145,7 @@ nav,
 
   /* test */
   height: 390px;
-  width: 40%;
+  width: 30%;
   background-color: #f08080;
   border: 1px dashed black;
 }
@@ -153,8 +153,8 @@ nav,
 .content5{
 
   /* test */
-  height: 390px;
-  width: calc(100% / 4);
+  height: 100%;
+  width: 25%;
   background-color: #20b2aa;
   border: 1px dashed white;
 }
