@@ -168,6 +168,7 @@ hr{
 .footer-section-color{
   
   /* test */
+  padding-top: 20px;
   background-color: #23272a;
   
 }
@@ -197,8 +198,4 @@ hr{
   padding: 2px;
   width: 7%;
   text-align: center;
-}
-
-.footer-section-color hr{
-  margin-bottom: 20px;
 }
