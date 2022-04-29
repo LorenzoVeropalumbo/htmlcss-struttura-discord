@@ -169,15 +169,17 @@ hr{
   
   /* test */
   background-color: #23272a;
-  padding-top: 20px;
+  
 }
 
 .flex-container-footer{
 
   justify-content: space-between;
+  align-items: center;
   
   /* test */
-  padding: 10px 0;
+  /* padding: 10px 0; */
+  height: 50px;
   background-color: #7fffd4;
 }
 
@@ -195,4 +197,8 @@ hr{
   padding: 2px;
   width: 7%;
   text-align: center;
+}
+
+.footer-section-color hr{
+  margin-bottom: 20px;
 }
