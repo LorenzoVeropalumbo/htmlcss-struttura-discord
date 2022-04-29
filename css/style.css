@@ -15,17 +15,15 @@
 /* HEADER TOP */
 .flex-container{
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-
-  /* test */
-  height: 55px;
+  /* justify-content: space-around;
+  align-items: center; */
 }
 
 .top-section-color{
 
   /* test */
   background-color: #add8e6;
+  padding: 20px 0;
 }
 
 .menu{
