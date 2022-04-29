@@ -87,15 +87,6 @@ nav,
 
 /* MAIN */
 
-.flex-section{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-  /* test */ 
-  height: 100%;
-}
-
 .section-color{
 
   /* test */
@@ -178,23 +169,23 @@ hr{
   
   /* test */
   background-color: #23272a;
-  height: 80px;
   padding-top: 20px;
 }
 
 .flex-container-footer{
-  display: flex;
+
   justify-content: space-between;
-  align-items: center;
   
   /* test */
-  height: 100%;
+  padding: 10px 0;
   background-color: #7fffd4;
 }
 
 .flex-container-footer .logo{
   background-color: #ffb6c0;
   padding: 2px;
+  width: 5%;
+  text-align: center;
 }
 
 .flex-container-footer .login{
@@ -202,4 +193,6 @@ hr{
   text-decoration: none;
   color: inherit;
   padding: 2px;
+  width: 7%;
+  text-align: center;
 }
